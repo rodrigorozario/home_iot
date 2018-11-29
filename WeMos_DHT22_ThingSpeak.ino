@@ -20,7 +20,7 @@ DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266
 
 float prevTemp = 0;
 const char* server = "184.106.153.149";//"api.thingspeak.com";
-String apiKey ="EQSLMAISKEDGVYVY";
+String apiKey ="";
 const char* MY_SSID = ""; 
 const char* MY_PWD = "";
 int sent = 0;
